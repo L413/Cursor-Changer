@@ -1,6 +1,7 @@
-    h3.embed {
-      color: white;
-    }
+  h3.embed {
+  color: red;
+  font-family: sans-serif;
+}
   .btn-group .button {
   background-color: red;
   border: 1px solid black;
@@ -13,6 +14,7 @@
   width: 150px;
   display: block;
   border-radius: 10px;
+  font-family: sans-serif;
 }
 
 .btn-group .button:not(:last-child) {
