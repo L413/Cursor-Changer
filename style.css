@@ -1,6 +1,6 @@
 .btn-group .button {
-  background-color: #4CAF50; /* Green */
-  border: 1px solid green;
+  background-color: red; /* Green */
+  border: 1px solid black;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -16,5 +16,5 @@
 }
 
 .btn-group .button:hover {
-  background-color: #3e8e41;
+  background-color: black;
 }
