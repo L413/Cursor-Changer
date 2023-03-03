@@ -4,7 +4,7 @@
   text-align: center;
   text-size: 30px;
 }
-  .btn-group .button {
+  .btn-group {
   background-color: red;
   border: 1px solid black;
   color: white;
@@ -16,10 +16,23 @@
   width: 150px;
   display: block;
   border-radius: 10px;
-  font-family: sans-serif;
-  transition: 0.1s
 }
 
+.button {
+background-color: red;
+  border: 1px solid black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+  border-radius: 10px;
+  font-family: sans-serif;
+  transition: 0.2s
+}
 .btn-group .button:not(:last-child) {
   border-bottom: none;
 }
