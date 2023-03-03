@@ -24,3 +24,6 @@
 .btn-group .button:hover {
   background-color: darkred;
 }
+button .button {
+font-family: sans-serif;
+}
