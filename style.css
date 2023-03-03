@@ -1,5 +1,11 @@
-.btn-group .button {
-  background-color: red; /* Green */
+ body {
+      background-color: black;
+    }
+    h3 {
+      color: white;
+    }
+  .btn-group .button {
+  background-color: red;
   border: 1px solid black;
   color: white;
   padding: 15px 32px;
@@ -9,12 +15,13 @@
   cursor: pointer;
   width: 150px;
   display: block;
+  border-radius: 10px;
 }
 
 .btn-group .button:not(:last-child) {
-  border-bottom: none; /* Prevent double borders */
+  border-bottom: none;
 }
 
 .btn-group .button:hover {
-  background-color: black;
+  background-color: darkred;
 }
