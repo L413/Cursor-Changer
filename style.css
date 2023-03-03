@@ -2,7 +2,7 @@
   color: red;
   font-family: sans-serif;
   text-align: center;
-  text-size: 30px;
+  text-size: 25px;
 }
   .btn-group {
   background-color: black;
@@ -16,7 +16,6 @@
   width: 150px;
   display: block;
   border-radius: 5px;
-  text-align: center;
 }
 
 .button {
