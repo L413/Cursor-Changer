@@ -5,9 +5,9 @@
   text-size: 30px;
 }
   .btn-group {
-  background-color: red;
+  background-color: black;
   border: 1px solid black;
-  color: white;
+  color: red;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -15,7 +15,7 @@
   cursor: pointer;
   width: 150px;
   display: block;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .button {
