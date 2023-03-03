@@ -17,6 +17,7 @@
   display: block;
   border-radius: 10px;
   font-family: sans-serif;
+  transition: 0.1s
 }
 
 .btn-group .button:not(:last-child) {
