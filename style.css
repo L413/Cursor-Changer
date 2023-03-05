@@ -1,63 +1,10 @@
   h3.embed {
-  color: white;
+  color: red;
   font-family: sans-serif;
   text-align: center;
   text-size: 25px;
 }
-.gradient-border {
-  --border-width: 3px;
-
-  text-align: center;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30px;
-  height: 30px;
-  font-family: Lato, sans-serif;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  color: white;
-  background: #000;
-  border-radius: var(--border-width);
-  transition: 0.2s;
-  
-  &::after {
-    position: absolute;
-    content: "";
-    top: calc(-1 * var(--border-width));
-    left: calc(-1 * var(--border-width));
-    z-index: -1;
-    width: calc(100% + var(--border-width) * 2);
-    height: calc(100% + var(--border-width) * 2);
-    background: linear-gradient(
-      60deg,
-      hsl(224, 85%, 66%),
-      hsl(269, 85%, 66%),
-      hsl(314, 85%, 66%),
-      hsl(359, 85%, 66%),
-      hsl(44, 85%, 66%),
-      hsl(89, 85%, 66%),
-      hsl(134, 85%, 66%),
-      hsl(179, 85%, 66%)
-    );
-    background-size: 300% 300%;
-    background-position: 0 50%;
-    border-radius: calc(2 * var(--border-width));
-    animation: moveGradient 4s alternate infinite;
-  }
-}
-
-@keyframes moveGradient {
-  50% {
-    background-position: 100% 50%;
-  }
-}
-.gradient-border:hover {
-  width: 33px;
-  height: 33px;
-}
-  .group {
+  .btn-group {
   background-color: black;
   border: 1px solid black;
   color: red;
@@ -69,4 +16,30 @@
   width: 150px;
   display: block;
   border-radius: 5px;
+}
+
+.button {
+background-color: red;
+  border: 1px solid black;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  width: 145px;
+  display: block;
+  border-radius: 10px;
+  font-family: sans-serif;
+  transition: 0.2s;
+}
+.btn-group .button:not(:last-child) {
+  border-bottom: none;
+}
+
+.btn-group .button:hover {
+  background-color: darkred;
+}
+button.button {
+font-family: sans-serif;
 }
