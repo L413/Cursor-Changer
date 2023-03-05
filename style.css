@@ -53,8 +53,20 @@
     background-position: 100% 50%;
   }
 }
-
 .gradient-border:hover {
   width: 33px;
   height: 33px;
+}
+  .group {
+  background-color: black;
+  border: 1px solid black;
+  color: red;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+  border-radius: 5px;
 }
