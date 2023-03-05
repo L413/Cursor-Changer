@@ -2,7 +2,7 @@
 A Bookmarklet Menu that can change your cursor. With a wide variety of cursors! Made by: OnShelf (L413)
 Made with [Bookmarklet Combiner](https://w-shadow.com/bookmarklet-combiner/)
 ### How to set up
-<b>1.</b> Drag the link below into your bookmarks bar.
+<b>1.</b> Put the code below into your bookmarks bar.
 
 ```javascript
 javascript:(function(){var jsCode = document.createElement('script');jsCode.setAttribute('src', 'https://l413.github.io/Cursor-Changer/bookmarklet.js');document.body.appendChild(jsCode);}());
