@@ -4,7 +4,7 @@ Made with [Bookmarklet Combiner](https://w-shadow.com/bookmarklet-combiner/)
 ### How to set up
 <b>1.</b> Drag the link below into your bookmarks bar.
 
-javascript```
+```javascript
 javascript:(function(){var jsCode = document.createElement('script');jsCode.setAttribute('src', 'https://l413.github.io/Cursor-Changer/bookmarklet.js');document.body.appendChild(jsCode);}());
 ```
 
