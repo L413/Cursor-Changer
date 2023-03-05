@@ -4,7 +4,7 @@ Made with [Bookmarklet Combiner](https://w-shadow.com/bookmarklet-combiner/)
 ### How to set up
 <b>1.</b> Drag the link below into your bookmarks bar.
 
-[Cursor Changer](javascript:(function(){var jsCode = document.createElement('script');jsCode.setAttribute('src', 'https://l413.github.io/Cursor-Changer/bookmarklet.js');document.body.appendChild(jsCode);}());)
+<a href="javascript:(function(){var jsCode = document.createElement('script');jsCode.setAttribute('src', 'https://l413.github.io/Cursor-Changer/bookmarklet.js');document.body.appendChild(jsCode);}());">Cursor Changer</a>
 
 <b>2.</b> Once you click the bookmarklet, choose a mouse to change to. 
 
