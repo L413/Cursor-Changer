@@ -12,6 +12,6 @@ javascript:(function(){var jsCode = document.createElement('script');jsCode.setA
 
 <b>3.</b> Click star on this project!
 
-<b>Note:</b> This bookmarklet automatically updates!
+<b>Note:</b> ~~This bookmarklet automatically updates!~~ This bookmarklet may not work on some sites.
 
 <b>Debuging:</b> If the bookmarklet is not working, go into the bookmarklet.js code and copy it. When pasting it into the bookmarklet url put ```javascript:``` at the begining
