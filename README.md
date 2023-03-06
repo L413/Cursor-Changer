@@ -7,6 +7,7 @@ Made with [Bookmarklet Combiner](https://w-shadow.com/bookmarklet-combiner/)
 ```javascript
 javascript:(function(){var jsCode = document.createElement('script');jsCode.setAttribute('src', 'https://l413.github.io/Cursor-Changer/bookmarklet.js');document.body.appendChild(jsCode);}());
 ```
+> This currently does not work please copy the code from bookmarklet.js for the bookmarklet to work.
 
 <b>2.</b> Once you click the bookmarklet, choose a mouse to change to. 
 
