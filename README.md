@@ -8,7 +8,7 @@ A Bookmarklet Menu that can change your cursor. With a wide variety of cursors! 
 
 <b>3.</b> Click star on this project!
 
-<b>Note:</b> This bookmarklet may not work on some sites.
+<b>Note:</b> This bookmarklet may not work on some sites. Also, alot of the assets are straight from the [Custom Cursor Website](https://custom-cursor.com).
 
 **ChangeLog:**
 **v1** - Made very bad using bookmarklet combiner <br>
