@@ -10,8 +10,8 @@ A Bookmarklet Menu that can change your cursor. With a wide variety of cursors! 
 
 <b>Note:</b> This bookmarklet may not work on some sites. Also, alot of the assets are straight from the [Custom Cursor Website](https://custom-cursor.com).
 
-**ChangeLog:**
+**ChangeLog:**<br>
 **v1** - Made very bad using bookmarklet combiner (old)<br>
 **v2** - Made using chat GPT and customization (old)<br>
 **v3.0** - Made to look similar to the custom cursor extension, now changes the pointer mouse as well. <br>
-  **v3.0.1** - Added 3 mouse cursors, close function breaks the whole thing but ill fix that soon.
+> **v3.0.1** - Added 3 mouse cursors, close function breaks the whole thing but ill fix that soon.
