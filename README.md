@@ -11,6 +11,7 @@ A Bookmarklet Menu that can change your cursor. With a wide variety of cursors! 
 
 **ChangeLog:**
 
+**v3.0.7** - More cursors added, 2nd line and amogus cursors, fixed styling.<br>
 **v3.0.6** - More cursors added, fixed close function.<br>
 **v3.0.5** - Added 3 mouse cursors, close function breaks the whole thing but ill fix that soon.<br>
 **v3.0** - Made to look similar to the custom cursor extension, now changes the pointer mouse as well. <br>
