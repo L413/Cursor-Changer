@@ -11,7 +11,7 @@ THIS BOOKMARKLET AUTOMATICALLY UPDATES!
 <b>Note:</b> This bookmarklet may not work on some sites. Also, alot of the assets are straight from the [Custom Cursor Website](https://custom-cursor.com).
 
 ### ChangeLog:
-**v3.2.3** - Fixed some styling issues witht he bookamrklet.<br>
+**v3.2.3** - Fixed some styling issues with the bookamrklet.<br>
 **v3.2.2** - Finished website with save data, from now on cursors will be added to the website for you to manually pick.<br>
 **v3.2.1** - Made the bookmarklet auto update. Add more cursors.<br>
 **v3.2.0** - Release of [website](https://customized-cursors.glitch.me/), eventually you will be able to manually add and remove cursors via website.<br>
