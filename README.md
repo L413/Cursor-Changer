@@ -1,6 +1,9 @@
 # Custom Cursor
 A Bookmarklet Menu that can change your cursor. With a wide variety of cursors! Made by: OnShelf (L413)
 THIS BOOKMARKLET AUTOMATICALLY UPDATES!
+
+> **ANNOUNCEMENT** I have made a web scraper thingy to easily get the cursor urls from customcursor so you can check out the code in the url-scrape file.
+
 ### How to set up
 <b>1.</b> Check [here](https://github.com/L413/Cursor-Changer/releases/latest) for the latest release.
 
