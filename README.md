@@ -11,7 +11,7 @@ THIS BOOKMARKLET AUTOMATICALLY UPDATES!
 
 <b>3.</b> Click star on this project!
 
-<b>Note:</b> This bookmarklet may not work on some sites. Also, alot of the assets are straight from the [Custom Cursor Website](https://custom-cursor.com).
+<b>Note:</b> This bookmarklet may not work on some sites. Also, alot of the assets are straight from the [Custom Cursor Website](https://custom-cursor.com), so all credit for those go to them.
 
 ### ChangeLog:
 **v3.2.3** - Fixed some styling issues with the bookamrklet.<br>
