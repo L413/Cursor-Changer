@@ -1,4 +1,4 @@
-# Custom Cursor
+# Custom Cursor Bookmarklet
 A Bookmarklet Menu that can change your cursor. With a wide variety of cursors! Made by: OnShelf (L413)
 THIS BOOKMARKLET AUTOMATICALLY UPDATES!
 
