@@ -5,7 +5,7 @@ THIS BOOKMARKLET AUTOMATICALLY UPDATES!
 > **ANNOUNCEMENT** Due to copyright issues the cursor changer will be reseting.
 
 ### How to set up
-<b>1.</b> Check [here](https://github.com/L413/Cursor-Changer/releases/latest) for the latest release.
+<b>1.</b> Check [here](https://github.com/L413/Cursor-Changer-Custom-Cursor-Bookmarklet-/releases/latest) for the latest release.
 
 <b>2.</b> After adding the bookmarklet, click any cursor to apply it to the page.
 
