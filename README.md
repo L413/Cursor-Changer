@@ -17,6 +17,7 @@ THIS BOOKMARKLET AUTOMATICALLY UPDATES!
 
 | Version | Release Date| Changes                                                                                                         |
 | ------- | ---------- | --------------------------------------------------------------------------------------------------------------- |
+| v4.0.0  | 04-17-23 | Changed style to black and red, changed the logo and favicon, added trails.|
 | v3.3.0  | 04-12-23 | Fixed more style issues, removed auto reloader, adding loading and lazy loading                                |
 | v3.2.3  | 03-25-23 | Fixed some styling issues with the bookmarklet.                                                                 |
 | v3.2.2  | 03-24-23 | Finished website with save data, from now on cursors will be added to the website for you to manually pick.       |
