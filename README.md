@@ -2,7 +2,7 @@
 A Bookmarklet Menu that can change your cursor. With a wide variety of cursors! Made by: OnShelf (L413)
 THIS BOOKMARKLET AUTOMATICALLY UPDATES!
 
-> **ANNOUNCEMENT** Due to copyright issues the cursor changer will be reseting.
+> **ANNOUNCEMENT** Cursor Changer has been updated and has no copyright items.
 
 ### How to set up
 <b>1.</b> Check [here](https://github.com/L413/Cursor-Changer-Custom-Cursor-Bookmarklet-/releases/latest) for the latest release.
@@ -11,7 +11,7 @@ THIS BOOKMARKLET AUTOMATICALLY UPDATES!
 
 <b>3.</b> Click star on this project!
 
-<b>Note:</b> This bookmarklet may not work on some sites. Also, alot of the assets are straight from the [Custom Cursor Website](https://custom-cursor.com), so all credit for those go to them.
+<b>Note:</b> This bookmarklet may not work on some sites. All of the cursors are made by me.
 
 ## Changelog
 
