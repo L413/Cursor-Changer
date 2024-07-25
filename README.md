@@ -7,7 +7,7 @@ THIS BOOKMARKLET AUTOMATICALLY UPDATES!
 ### How to set up
 <b>1.</b> Check [here](https://github.com/L413/Cursor-Changer-Custom-Cursor-Bookmarklet-/releases/latest) for the latest release or download with the button below.
 <!-- BEGIN LATEST DOWNLOAD BUTTON -->
-[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")]([https://github.com/DenverCoder1/readme-download-button-action/archive/1.0.1.zip](https://github.com/L413/Cursor-Changer/archive/refs/tags/v4.0.0.zip))
+[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/DenverCoder1/readme-download-button-action/archive/1.0.1.zip](https://github.com/L413/Cursor-Changer/archive/refs/tags/v4.0.0.zip)
 <!-- END LATEST DOWNLOAD BUTTON -->
 
 <b>2.</b> After adding the bookmarklet, click any cursor to apply it to the page.
