@@ -1,0 +1,266 @@
+body {
+  background: #0d1117;
+}
+
+button {
+  height: 35px;
+  width: 75px;
+  border-radius: 8px;
+  border: 1px;
+  cursor: pointer;
+  padding: inherit;
+  background-color: white;
+  transition: 0.2s;
+  margin: 2px 2px 0 0;
+}
+
+button>img {
+  height: 32px
+}
+
+button:not(.collapsible, .circle):hover {
+  --x: calc(-4px + (8px * var(--rand)));
+  --y: calc(-4px + (8px * var(--rand)));
+  animation: shake 0.2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(calc(-1 * var(--x)), calc(-1 * var(--y)));
+  }
+  20% {
+    transform: translate(0, 0);
+  }
+  30% {
+    transform: translate(var(--x), var(--y));
+  }
+  40% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(calc(-1 * var(--x)), calc(-1 * var(--y)));
+  }
+  60% {
+    transform: translate(0, 0);
+  }
+  70% {
+    transform: translate(var(--x), var(--y));
+  }
+  80% {
+    transform: translate(0, 0);
+  }
+  90% {
+    transform: translate(calc(-1 * var(--x)), calc(-1 * var(--y)));
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+
+p {
+  font-size: 16px;
+  bottom: 3px;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 3px;
+  color: #800000;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#cursor-menu-body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  background: #0d1117;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#cursor-menu-body ::-webkit-scrollbar {
+  display: none;
+}
+
+.default {
+  color: inherit;
+  text-decoration: none;
+}
+
+.red {
+  color: #5c0e15;
+  text-decoration: none;
+}
+
+#cursor-menu-body > div > button > img {
+  height: 34px;
+}
+
+/*Collapsables*/
+.collapsible {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  background: none;
+  position: relative;
+  transition: all 0.3s ease-out;
+  /* add a transition for smooth animation */
+}
+
+.collapsible:hover {
+  background: none;
+}
+
+.collapsible:after {
+  content: "\002B";
+  color: #800000;
+  font-weight: bold;
+  position: absolute;
+  top: 12px;
+  left: 460px;
+  transition: all 0.3s ease-out;
+  /* add a transition for smooth animation */
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+  /* add a transition for smooth animation */
+  max-height: 0;
+  /* hide the content by default */
+}
+
+.active .content {
+  max-height: 1000px;
+  /* show the content when the collapsible is active */
+}
+
+/*Loader*/
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0d1117;
+  z-index: 9999;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#loader.fadeOut {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+.spinner {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 3px solid #5c0e15;
+  border-top-color: #800000;
+  animation: spin 0.8s ease-in-out infinite;
+}
+.loading-text {
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #800000;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*Tab Styling*/
+.tabs {
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  margin: 0;
+  color: #800000;
+}
+
+.tab {
+  flex-basis: 50%;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #800000;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #800000;
+}
+
+.tab.active2 {
+  background-color: #800000;
+  color: white;
+}
+
+.tab:not(.active2):hover {
+  background-color: #5c0e15;
+  color: white;
+}
+
+#tab2 {
+  display: none;
+}
+
+/*Slider*/
+#slider {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 10px;
+  background: #444444;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  position: relative;
+  bottom: 10px;
+}
+
+#slider:hover {
+  opacity: 1;
+}
+
+#slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #800000;
+  cursor: pointer;
+}
+#tSize {
+  float: right;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: relative;
+  bottom: -13px;
+  font-size: 20px;
+}
+.circle {
+  height: 40px;
+  width: 40px;
+  background: transparent;
+  transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.circle:hover {
+  transform: rotate(90deg);
+}

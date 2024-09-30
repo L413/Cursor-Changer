@@ -1,0 +1,68 @@
+<html>
+  <body>
+    <link rel="stylesheet" href="app/style.css" />
+    <script src="app/script.js" defer></script>
+    <div id="loader">
+      <div class="spinner"></div>
+      <div class="loading-text">Loading</div>
+    </div>
+    <div class="tabs">
+      <div class="tab active2" id="tabc1">Cursors</div>
+      <div class="tab" id="tabc2">Trails</div>
+    </div>
+    <div id="cursor-menu-body">
+      <div class="tab-content" id="tab1">
+        <button class="collapsible">
+          <p>My Cursors</p>
+          <hr style="height: 1px; background-color: #800000; border: none" />
+        </button>
+        <div class="content">
+          <br />
+          <div id="installed"></div>
+        </div>
+        <button class="collapsible">
+          <p>Simple Cursors</p>
+          <hr style="height: 1px; background-color: #800000; border: none" />
+        </button>
+        <div class="content"  id="Simple Cursors">
+          <br />
+        </div>
+        <button class="collapsible">
+          <p>Colored Cursors</p>
+          <hr style="height: 1px; background-color: #800000; border: none" />
+        </button>
+        <div class="content"  id="Colored Cursors">
+          <br />
+        </div>
+      </div>
+      <div class="tab-content" id="tab2">
+        <br>
+        <button class="circle" onclick="resetTrail()">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEMAAABDCAYAAADHyrhzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAExklEQVR4nO2cS4gcVRSGv4Q4xvcL40J04ys+cCGIilE3EURQ1IURjbsQN4K4VjmnOtMxIhMRFclOURB0IfG1EHTlG10ILkSNGRI0xkcmiZmIQ2Lk2NWZmurq7vvqtrupH+6u69xTX517655T9zYMWQLrBTY6tPVMuhT2KBxzaHuYdGkNY1E1jIJqGJMMQ2B1BteOIgzzy/xjGBJYnd/QnA8QgakMblI44AjjgMAau861D/PH/DL/Bg5EFkG0He4JZAZOErhP4W2FeUcIS5rAIbve7Jg9BxDHI2tgQKQTRFcgTThPYHPJuRTN7DUFVvUBMTgg0h3EEiACJws0BA4nhlCOFrOfWaT0AJEeiPQHcRyIwOwgIVRAmXWMvnggDbhM4adh3uAA294GXFmDIBJI1n8sjmPzWg4skcA1Cn+MwE1EN4H9GVxHjGQCgCQBMQlAkoIYZyADAWGyBY7CzjGDsetpOIXUEmgkcnKHwFaB2wSuEDhT4QXHmzsisODZX5YURLOVa8Qusb/K4NYq+x4wtio86hkdh8u5TJSklXSFQvhb4SGB5d3sO8L43nIfYJnA654+NJOAmGml4fsDx+yvVpPo14cDjKMCN7d//xScJvCthy9zvdJ/Z0mrHhESEfP2BuoB+E6FZxTeUNjdB+rzZRu2rM5rHa7+rIuGoa3CjG9E/CNwb9nWNjjBxrzA7x72dgqc2uVB3e/h01tRIASmQipUNqYrbJ2t8EEA1LV9HtZzjrYO+ZQQO5TXLH1BLDTgkqIdgZUKnwYMtW30kUWbwEeOvvWevwQ2COzr0nzGZLu9Fvr0Sm33FjgDB22CC2yydoyObve6wWA8HODoMdeJyqIkYKFkjt/uAqLwUNfaoizUb+OQFIbAgsDpCdYoL/uAKPT1+CjBmC07qPC1p42fbbINhLFc4J1RgfFJhYNe847APUToSTjL8p//HYbCu0XHnoUTPa//TWBLVSvXLjO4odtvQ6JjEDA+r4iMgylsZ3Bjya4m9Hsgw2RXBYwvE9g+aplz0a6tQUYdxpHy5KcgCex+Voas8PFIw9BWe7C8IFL4K6VNixKLlkHASL0CfbPiKTYjnPyiXAux3YCBtnqvQFPnJtqqPVxdcn6FwPsBtvYKXFiRPO4IhNG3ttJVAlMh0SHwXoWtlQKvetj4rgGXl+0oPBIRFeFZa2g9I+98I51apvCAwI89rv0z39bQUcMQuCriVb2dWCmsC4SxkMEtVTZtDrBFk8JjCi8KvCQwLXBXXufs0GY4J3R45P50FJtCv5fMBTpwMIM7Yn3YBBcJfBMBYl+SGmjs2yB/BT4ROl4NpmeZsArGNKkksCr2u0k+T9h8scKxz+sFPozpM2/zTTiXlFLIEjj2X8gqvGILKXt1C1w8DefbN9EM7laYEfghRV95f0pqzYzpt9ZuE3KUpP4KP74gCtFRb1TR1EBkjCMiaYRk9W6/RQlcOkEbYtvR8UvwxliZICBRINqq944HnirI911o6NkSz70fOvRTBSHnTSyXyZO75OdNLOkq5xpDPW8ScxLJ6iG2USSwnto+ibTd6hFWLRuJk0ixZ9TyfRRrfM+o2XUjeUatrfr0YiJN3LnWGNUwCqphFFTDKKiGwaJG+Z9V/gWf/qylZP/5zgAAAABJRU5ErkJggg==">
+        </button>
+        <input type="range" min="10" max="50" value="40" id="slider" /><span
+          id="tSize" style="color:#800000;"
+        ></span>
+      </div>
+    </div>
+    <center>
+      <p>
+        Brought to you by
+        <a class="red" href="https://github.com/l413" target="_blank">L413</a>
+        from
+        <a
+          class="red"
+          href="https://github.com/red-stone-network"
+          target="_blank"
+          >Redstone Network</a
+        >.
+      </p>
+      <p>
+        Idea from
+        <a class="red" href="https://custom-cursor.com" target="_blank"
+          >Custom Cursor</a
+        >.
+      </p>
+    </center>
+  </body>
+</html>

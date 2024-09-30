@@ -1,0 +1,191 @@
+body {
+  font-family: sans-serif;
+  background: #0d1117;
+  overflow-x: hidden;
+  padding-top: 80px;
+}
+
+.add-container {
+  background-color: white;
+  width: 300px;
+  height: 120px;
+  border-radius: 6px;
+  transition: 0.4s;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+}
+.add-container:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.add-container > img {
+  position: relative;
+  top: 10px;
+  height: 40px
+}
+
+.add-container > p {
+  position: relative;
+  top: 5px;
+  font-weight: bold;
+}
+
+.add-container > .add {
+  position: relative;
+  font-weight: bold;
+  border-radius: 90px;
+  background: lightgreen;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+  border-style: solid;
+  border-color: lightgreen;
+  top: -5px;
+}
+
+.add-container > .add:hover {
+  background: white;
+}
+
+.add-container > .remove {
+  position: relative;
+  font-weight: bold;
+  border-radius: 90px;
+  background: tomato;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+  border-style: solid;
+  border-color: tomato;
+  top: -5px;
+}
+
+.add-container > .remove:hover {
+  background: white;
+}
+
+hr.rounded {
+  border: 5px solid #800000;
+  border-radius: 5px;
+  width: 95%;
+}
+.flex-container {
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+
+/*Loader*/
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0d1117;
+  z-index: 9999;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#loader.fadeOut {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+.spinner {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 3px solid #5c0e15;
+  border-top-color: #800000;
+  animation: spin 0.8s ease-in-out infinite;
+}
+.loading-text {
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #800000;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#search-bar {
+  padding: 10px;
+  border: 5px solid #800000;
+  font-size: 16px;
+  width: calc(100% - 350px);
+  margin: 20px auto;
+  border-radius: 90px;
+  background-image: url("https://imgsocket.glitch.me/img/v9929uN+ka.png");
+  background-position: right 8px center;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-color: #CCCCCC;
+  left: 130px;
+  position: absolute;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+.highlight {
+  background-color: #5c0e15;
+  color: white;
+}
+/*Page Header*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333333;
+  color: #800000;
+  padding-left: 10px;
+  height: 80px;
+  z-index: 10;
+}
+.gBook {
+  position: absolute;
+  font-weight: bold;
+  border-radius: 90px;
+  background: #800000;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 0.2s;
+  border: 3px solid #800000;
+  width: 160px;
+  right: 20px;
+  bottom: 16px;
+  cursor: pointer;
+}
+.gBook:hover {
+  background: white;
+}
+.hImg {
+  position: absolute;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 20px;
+  cursor: pointer;
+  height: 50px;
+  left: 10px;
+  top: 8px;
+}

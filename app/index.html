@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://cdn.glitch.global/77a0082b-63ce-4b67-8ab3-eeaff9db979a/favicon.png?v=1681743604274" />
+    <title>Cursor Changer</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div id="loader">
+      <div class="spinner"></div>
+      <div class="loading-text">Loading</div>
+    </div>
+    <header>
+      <img class="hImg" src="https://cdn.glitch.global/77a0082b-63ce-4b67-8ab3-eeaff9db979a/menu-logo.png?v=1681746042981" height="40px">
+      <input type="text" id="search-bar" placeholder="Search..." /><button
+        class="gBook"
+        onclick="window.open('https://github.com/L413/Cursor-Changer/releases/latest', '_blank')"
+      >
+        Get Bookmarklet
+      </button>
+      <div id="results"></div>
+    </header>
+    <center>
+      <h1 style="color: #800000">
+        Welcome to the
+        <span style="text-decoration: none; color: #5c0e15">
+          cursor changer
+        </span>
+        website!
+      </h1>
+      <hr class="rounded" />
+    </center>
+    <div class="flex-container" id="flex-container"></div>
+  </body>
+</html>
